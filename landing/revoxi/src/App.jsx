@@ -79,7 +79,7 @@ export default function RevoxiLandingPage() {
                     className="grid md:grid-cols-2 gap-10 items-center"
                 >
                     <div>
-                        <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
+                        <h1 className="text-4xl text-center md:text-5xl md:text-left font-bold leading-tight mb-6">
                             Слушайте свою речь
                             <span
                                 className="block mt-2"
@@ -89,12 +89,12 @@ export default function RevoxiLandingPage() {
               </span>
                         </h1>
 
-                        <p className="text-lg md:text-xl opacity-80 mb-8">
+                        <p className="text-lg text-center md:text-xl md:text-left opacity-80 mb-8">
                             ReVoxi помогает контролировать голос, дикцию и темп речи во время
                             разговора, чтения или тренировки произношения.
                         </p>
 
-                        <div className="flex flex-col sm:flex-row gap-4">
+                        <div className="flex text-center flex-col md:text-left sm:flex-row gap-4">
                             <a href="https://www.rustore.ru/catalog/app/com.example.re_voxi" target="_blank" rel="noopener noreferrer">
                                 <Button
                                     className="text-base px-6 py-6 rounded-2xl shadow-md"
