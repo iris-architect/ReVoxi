@@ -80,9 +80,9 @@ export default function RevoxiLandingPage() {
                 >
                     <div>
                         <h1 className="text-4xl text-center md:text-5xl md:text-left font-bold leading-tight mb-6">
-                            Слушайте свою речь
+                            Слушайте свою речь{" "}
                             <span
-                                className="block mt-2"
+                                className="inline md:block mt-2"
                                 style={{ color: colors.accent }}
                             >
                 в реальном времени
